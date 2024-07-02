@@ -18,9 +18,12 @@ body{
     justify-content: center;
     align-items: center;
     height: 1000px;
+    overflow: hidden;
 }
 .header h1{
     color: rgb(0, 68, 255);
+    position: fixed;
+    top: 5px;
 }
 .header p{
     color: sandybrown;
@@ -30,10 +33,56 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+    margin: 10px;
 }
 .header img{
     width: 150px;
     box-shadow: 2.5px 20px 60px 5px blue ;
     border-radius: 30px;
-    margin-top: 30%;
+    margin-top: 20px;
+}
+.button{
+    width: 100px;
+    height: 50px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 255, 0.527);
+    box-shadow: 0px 20px 40px 5px blue ;
+    margin-top: 80px;
+    
+}
+.body{
+    background-image: url(background2.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.common{
+    background-color: aqua;
+    color: blue;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border-top: 10px solid tomato;
+    box-shadow: 0px 10px 10px 10px salmon;
+}
+
+.first{
+    display: block;
+}
+.second{
+    display:none ;
+}
+.third{
+    visibility: hidden;
+}
+.fourth{
+    display: inline;
+}
+.fifth{
+    display: inline-block;
+}
+.span{
+    font-size: 60PX;
 }
