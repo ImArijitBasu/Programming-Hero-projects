@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    min-height: 100vh;
+    max-height: 100%;
+    width: 70%;
+    margin: auto;
+    background-color: beige;
+    padding: 30px;
+    background-image: url(panda.png), linear-gradient(45deg, rgb(38, 0, 255) , rgb(255, 129, 129));
+    background-repeat: no-repeat;
+    /* background-size: 5px; */
+    background-position:center;
+    background-blend-mode:darken;
+
+}
+.header{
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color:burlywood;
+    border: 5;
+    box-shadow: 0px 10px 50px 10px rgba(218, 165, 32, 0.473); 
+}
+.heading{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin: 20px 0;
+}
+.text{
+    color: lightgoldenrodyellow;
+    font-size: 30px;
+    background-color: rgba(215, 231, 250, 0.603);
+    width: 500px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-family:fantasy;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+.text > span{
+    background-color: rgba(0, 89, 255, 0.329);
+    text-align: center;
+    border-radius:2px;
+    font-size: 20px;
+}
+.area{
+    width: 70%;
+    height: 200px;
+    background-image: linear-gradient(45deg, rgba(38, 0, 255, 0.473) , rgba(255, 129, 129, 0.486));
+    color: white;
+    font-size: 23px;
+    border-radius: 20px;
+    padding:10px 20px ;
+}
+.rate{
+    width: 300px;
+    color: lightgoldenrodyellow;
+}
+.select{
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+    border:none;
+    border-radius: 40px;
+    margin-top: 20px;
+    background-image:linear-gradient(45deg, rgba(38, 0, 255, 0.473) , rgba(255, 129, 129, 0.486));
+    transition: all 1s ease;
+    -webkit-appearance: none;
+    color: #fff;
+    font-weight: 800;
+}
+.select:hover{
+    background-image:linear-gradient(145deg, rgba(38, 0, 255, 0.603) , rgba(255, 129, 129, 0.596));  
+}
+.option{
+    color: blue;
+    font-size: 13px;
+}
+.go{
+    margin-top: 30px;
+    height: 40px;
+    width: 100%;
+    font-size: 30px;
+    font-family: fantasy;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    color: #fff;
+    background-image:linear-gradient(360deg, rgba(38, 0, 255, 0.473) , rgba(255, 129, 129, 0.486));
+    border-radius: 30px;
+    transition: .5s;
+}
+.go:hover{
+    background-image: linear-gradient(340deg, rgba(38, 0, 255, 0.473) , rgba(255, 129, 129, 0.486));
+}
