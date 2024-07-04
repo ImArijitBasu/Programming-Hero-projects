@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    /* background: #e0bfbf; */
+}
+.panda{
+    height:100%;
+    width:30%;
+    margin: auto;
+    border-top: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    background-color: rgba(250, 235, 215, 0);
+}
+.search-box{
+    height: 20px;
+    border: 1px solid black;
+}
+.search{
+    width: 60px;
+    height: 20px;
+    background: linear-gradient(to top , rgb(145, 143, 143), white);
+    border-radius: 3px;
+    border: 1px solid rgb(134, 133, 133);
+}
+/* figure{
+    height: 300px;
+    width: 500px;
+    background-color: beige;
+} */
+.img{
+    max-width: 220px;
+}
+.container{
+    background-color: transparent;
+    height:100%;
+    width: 30%;
+    margin: auto;
+    padding: 0px 10px;
+}
+.name{
+    height: 20px;
+    width: 35%;
+    /* border-radius: 3px; */
+    border: 1px solid black;
+}
+.date{
+    height: 20px;
+    width: 25%;
+    border: 1px solid black;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+.textarea{
+    resize: none;
+    height: 70px;
+    width: 70%;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+.submit{
+    height: 20px;
+    width: 60px;
+    border-radius: 3px;
+    border: 1px solid rgb(134, 133, 133);
+    background: linear-gradient(to top , rgb(145, 143, 143), white);
+}
