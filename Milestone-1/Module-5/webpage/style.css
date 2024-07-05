@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* this isn't responsive */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.btn-container {
+  text-align: center;
+}
+.btn {
+  padding: 21px 32px;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  cursor: pointer;
+}
+#hero {
+  height: 896px;
+  width: 1872px;
+  background-image: linear-gradient(
+      0deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url(../assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero .hero-container {
+  width: 997px;
+}
+#hero .hero-container .subtitle {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.8;
+}
+#hero .hero-container .title {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 15px;
+}
+#hero .hero-container .description {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+*/ #cardbox {
+  width: 100%;
+  /* background-color: antiquewhite; */
+  padding-top: 167px;
+  padding-bottom: 167px;
+  /* height: 100vh; */
+  height: fit-content;
+}
+#cardbox .container {
+  width: 1320px;
+  /* background-color: aliceblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 5px 1px black;
+  margin: 60px auto;
+  padding: 10px;
+  height: fit-content;
+}
+#cardbox .container .head-title .subtitle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#cardbox .container .head-title .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 691px;
+  height: 128px;
+  margin-bottom: 30px;
+}
+#cardbox .container .card-container {
+  width: 1320px;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 30px 10px;
+}
+#cardbox .container .card-container .card {
+  width: 424px;
+  height: 525px;
+  /* border: 1px solid black; */
+  padding-bottom: 60px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px 5px gray;
+}
+#cardbox .container .card-container .card .image {
+  height: 283px;
+  overflow: hidden;
+}
+#cardbox .container .card-container .card .shop {
+  /* border: 1px solid black; */
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cardbox .container .card-container .card .shop span {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0%;
+  width: 160px;
+  height: 40px;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  padding: 14px 32px 14px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cardbox .container .card-container .card h1 {
+  /* border: 1px solid black; */
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#cardbox .container .card-container .card p {
+  /* border: 1px solid black; */
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+#about {
+  height: 671px;
+  display: flex;
+}
+#about .image2 {
+  height: 671px;
+  width: 50vw;
+}
+#about .image2 img {
+  height: 671px;
+  width: 100%;
+}
+#about .box {
+  max-height: 671px;
+  width: 50vw;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#about .box .box-head {
+  width: 805px;
+  /* background-color: aqua; */
+}
+#about .box .box-head h1 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#about .box .box-head p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+  text-align: center;
+  padding-top: 20px;
+}
+#about .box .follow {
+  border: 2px solid rgba(0, 0, 0, 0.247);
+  width: 100%;
+  padding: 10px auto;
+  margin: 40px 0px;
+}
+#about .box .follow h2 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+#about .box .icons-container {
+  /* background-color: aqua; */
+}
+#about .box .icons-container .fa-brands {
+  color: rgb(0, 201, 252);
+  height: 40px;
+  width: 60px;
+  cursor: pointer;
+}
+
+#social {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.774),
+      rgba(255, 255, 255, 0.774)
+    ),
+    url(../assets/social-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#social .box {
+  max-height: 671px;
+  width: 50vw;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#social .box .box-head h1 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#social .box .box-head p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.8;
+  text-align: center;
+  padding-top: 20px;
+}
+#social .box .follow {
+  border: 2px solid rgba(0, 0, 0, 0.247);
+  width: 100%;
+  padding: 10px auto;
+  margin: 40px 0px;
+}
+#social .box .follow h2 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+#social .box .icons-container {
+  /* background-color: aqua; */
+}
+#social .box .icons-container .fa-brands {
+  color: rgb(0, 201, 252);
+  height: 40px;
+  width: 60px;
+  cursor: pointer;
+}
