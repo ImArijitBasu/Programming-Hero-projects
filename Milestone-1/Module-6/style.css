@@ -175,3 +175,87 @@ header{
 
 
 
+/* offer section  */
+
+
+.offer{
+    width: 1320px;
+    height: 465px;
+    margin:110px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.offer .left{
+    width: 393px;
+    height: 255px;
+    margin-right: 70px;
+}
+
+.offer .left .heading{
+    width: 330px;
+    height: 105px;
+}
+.offer .left .heading h4{
+    font-family: "inter";
+    font-size: 24px;
+    font-weight:500;
+    color: #FF0000;
+}
+.offer .left .heading h1{
+    font-family: 'Merriweather', serif;
+    font-weight: black;
+    font-size: 48px;
+    line-height: auto;
+    color: #070211;
+    margin-top: 16px;
+}
+.offer .left p{
+    margin-top: 22px;
+    font-family: "inter";
+    font-size: 20px;
+    line-height: 32px;
+    color: #070211;
+    opacity: .6;
+}
+.image{
+    width: 500px;
+    height: 500px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.image .image-container{
+    width: 463px;
+    height: 463px;
+    border: 15px solid #FF0000;
+    border-radius:463px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    margin-left: 118px;
+}
+.right .text{
+    font-family: "inter";
+    width: 276px;
+    height: 170px;
+}
+.right .text h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.right .text p{
+    margin-top: 16px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #070211;
+    opacity: .6;
+}
+
+.right .image-container{
+    width: 140px;
+    height: 140px;
+    margin-top: 43px;
+}
