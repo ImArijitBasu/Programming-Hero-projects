@@ -1,261 +1,376 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
-body{
-    font-family: 'Merriweather', serif;
+body {
+  font-family: "Merriweather", serif;
 }
 /* header section  */
 
-header{
-    font-family: 'Merriweather', serif;
-    height:600px ;
-    width: 1320px;
-    background-image: linear-gradient( 180deg , rgb(0, 0, 0) , rgba(255, 255, 255, 0)) ,url(assets/images/Banner\ Image.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 50px auto;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+header {
+  font-family: "Merriweather", serif;
+  height: 600px;
+  width: 1320px;
+  background-image: linear-gradient(
+      180deg,
+      rgb(0, 0, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    url(assets/images/Banner\ Image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 50px auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.title-box{
-    width: 630px;
-    height: 245px;
-    margin: auto;
+.title-box {
+  width: 630px;
+  height: 245px;
+  margin: auto;
 }
-.title-box h4{
-    font-size: 32px;
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 16px;
-    opacity: 0.8;
+.title-box h4 {
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 16px;
+  opacity: 0.8;
 }
-.title-box h1{
-    font-size: 72px;
-    color: #ffffff;
-    text-align: center;
-    font-weight: black;
+.title-box h1 {
+  font-size: 72px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: black;
 }
 
 /* main section  */
 
 /* discount section  */
 
-.discount{
-    font-family: "Inter", sans-serif;
-    width: 802px;
-    height: 820px;
-    margin: 120px auto 106px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.discount {
+  font-family: "Inter", sans-serif;
+  width: 802px;
+  height: 820px;
+  margin: 120px auto 106px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.discount h1{
-    font-size: 88px;
-    color:#FF0000 ;
-    font-weight: bold;
-    margin-bottom: 60px;
+.discount h1 {
+  font-size: 88px;
+  color: #ff0000;
+  font-weight: bold;
+  margin-bottom: 60px;
 }
-.discount .discount-box .deals{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.discount .discount-box .deals {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.discount .discount-box .deals h6{
-    font-size: 24px;
-    color: #FF0000;
-    font-weight: medium;
-    margin-bottom: 16px;
+.discount .discount-box .deals h6 {
+  font-size: 24px;
+  color: #ff0000;
+  font-weight: medium;
+  margin-bottom: 16px;
 }
-.discount .discount-box .deals h3{
-    font-size: 48px;
-    color: #070211;
-    font-weight:bold;
-    margin-bottom:48px ;
+.discount .discount-box .deals h3 {
+  font-size: 48px;
+  color: #070211;
+  font-weight: bold;
+  margin-bottom: 48px;
 }
-
 
 /* party section  */
 
-.party{
-    background-image:linear-gradient(90deg , black , rgba(255, 255, 255, 0)) ,url(assets/images/Vectorrr.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:600px ;
-    width: 1320px;
-    margin:106px auto;
-    border-radius: 20px;
-    display: flex;
+.party {
+  background-image: linear-gradient(90deg, black, rgba(255, 255, 255, 0)),
+    url(assets/images/Vectorrr.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 1320px;
+  margin: 106px auto;
+  border-radius: 20px;
+  display: flex;
 }
-.party .left{
-    width: 700px;
-    margin-top: 126px;
-    margin-left: 126px;
+.party .left {
+  width: 700px;
+  margin-top: 126px;
+  margin-left: 126px;
 }
-.party .left h1{
-    font-family: 'Merriweather', serif;
-    font-size: 64px;
-    font-weight: black;
-    line-height: 88px;
-    letter-spacing: 11%;
-    color: #ffffff;
-    width: 640px;
+.party .left h1 {
+  font-family: "Merriweather", serif;
+  font-size: 64px;
+  font-weight: black;
+  line-height: 88px;
+  letter-spacing: 11%;
+  color: #ffffff;
+  width: 640px;
 }
-.party .left p{
-    font-family:"Inter", sans-serif;
-    font-size: 18px;
-    color: #ffffff;
-    opacity: .8;
-    line-height: 30px;
-    margin-top: 24px;
+.party .left p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  opacity: 0.8;
+  line-height: 30px;
+  margin-top: 24px;
 }
-.party .left .join{
-    margin-left: 32px;
-    margin-top: 48px;
-    font-family:"Inter", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: #ffffff;
-    background-color: transparent;
-}
-
-.party .right{
-    margin-top: 50px;
-    margin-right: 128px;
-    margin-left: 49px;
+.party .left .join {
+  margin-left: 32px;
+  margin-top: 48px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: transparent;
 }
 
+.party .right {
+  margin-top: 50px;
+  margin-right: 128px;
+  margin-left: 49px;
+  /* background-color: black; */
+  /* mix-blend-mode:lighten; */
+  /* box-shadow: none;  */
+}
 
 /* event section  */
 
+.event {
+  background-image: linear-gradient(180deg, #ff000017, #ff000000);
 
-.event{
-    background-image: linear-gradient(180deg ,#ff000017 , #ff000000);
-
-    width: 1320px;
-    height: 482px;
-    margin: 120px auto;
-    border-radius: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  width: 1320px;
+  height: 482px;
+  margin: 120px auto;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.event .text{
-    font-family: 'inter', serif;
-    font-size: 32px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 56px;
+.event .text {
+  font-family: "inter", serif;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 56px;
 }
-.event .text p span{
-    color: #FF0000;
+.event .text p span {
+  color: #ff0000;
 }
-.event .btn-container .btn{
-    background-color: #FF0000;
-    font-family: "inter", serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: #ffffff;
-    padding: 16px 32px;
-    border-radius: 8px;
-    margin-top: 48px;
+.event .btn-container .btn {
+  background-color: #ff0000;
+  font-family: "inter", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 16px 32px;
+  border-radius: 8px;
+  margin-top: 48px;
 }
-
-
 
 /* offer section  */
 
+.offer {
+  width: 1320px;
+  height: 465px;
+  margin: 110px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.offer .left {
+  width: 393px;
+  height: 255px;
+  margin-right: 70px;
+}
 
-.offer{
-    width: 1320px;
-    height: 465px;
-    margin:110px auto;
-    display: flex;
-    justify-content: space-around;
+.offer .left .heading {
+  width: 330px;
+  height: 105px;
 }
-.offer .left{
-    width: 393px;
-    height: 255px;
-    margin-right: 70px;
+.offer .left .heading h4 {
+  font-family: "inter";
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
 }
-
-.offer .left .heading{
-    width: 330px;
-    height: 105px;
+.offer .left .heading h1 {
+  font-family: "Merriweather", serif;
+  font-weight: black;
+  font-size: 48px;
+  line-height: auto;
+  color: #070211;
+  margin-top: 16px;
 }
-.offer .left .heading h4{
-    font-family: "inter";
-    font-size: 24px;
-    font-weight:500;
-    color: #FF0000;
+.offer .left p {
+  margin-top: 22px;
+  font-family: "inter";
+  font-size: 20px;
+  line-height: 32px;
+  color: #070211;
+  opacity: 0.6;
 }
-.offer .left .heading h1{
-    font-family: 'Merriweather', serif;
-    font-weight: black;
-    font-size: 48px;
-    line-height: auto;
-    color: #070211;
-    margin-top: 16px;
-}
-.offer .left p{
-    margin-top: 22px;
-    font-family: "inter";
-    font-size: 20px;
-    line-height: 32px;
-    color: #070211;
-    opacity: .6;
-}
-.image{
-    width: 500px;
-    height: 500px;
-    /* display: flex;
+.image {
+  width: 500px;
+  height: 500px;
+  /* display: flex;
     align-items: center;
     justify-content: center; */
 }
-.image .image-container{
-    width: 463px;
-    height: 463px;
-    border: 15px solid #FF0000;
-    border-radius:463px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.image .image-container {
+  width: 463px;
+  height: 463px;
+  border: 15px solid #ff0000;
+  border-radius: 463px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.right{
-    margin-left: 118px;
+.right {
+  margin-left: 118px;
 }
-.right .text{
-    font-family: "inter";
-    width: 276px;
-    height: 170px;
+.right .text {
+  font-family: "inter";
+  width: 276px;
+  height: 170px;
 }
-.right .text h1{
-    font-size: 48px;
-    font-weight: bold;
-    color: #FF0000;
+.right .text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff0000;
 }
-.right .text p{
-    margin-top: 16px;
-    font-size: 20px;
-    line-height: 32px;
-    color: #070211;
-    opacity: .6;
+.right .text p {
+  margin-top: 16px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #070211;
+  opacity: 0.6;
 }
 
-.right .image-container{
-    width: 140px;
-    height: 140px;
-    margin-top: 43px;
+.right .image-container {
+  width: 140px;
+  height: 140px;
+  margin-top: 43px;
+}
+
+/* sales section */
+.sales {
+  /* background-color: antiquewhite; */
+  height: 986px;
+  width: 1320px;
+  margin: 0 auto;
+  background-image: url(/assets/images/Rectangle\ 2.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.sales .titles {
+  width: 1068px;
+  height: 260px;
+}
+.sales .titles .first-title p {
+  color: rgb(7, 2, 17);
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.sales .titles .first-title h1 {
+  font-family: "Merriweather";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 16px;
+}
+.sales .titles .first-title h1 span {
+  color: #ff0000;
+}
+.sales .titles .para {
+  text-align: center;
+  padding: 28px;
+}
+.sales .titles .para p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.sales .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+}
+/* .sales .bottom .left{
+
+} */
+.sales .bottom .right {
+  height: 500px;
+}
+
+/* portfolio section  */
+
+.portfolio {
+  height: 1160px;
+  width: 1320px;
+  margin: 120px auto;
+}
+
+.portfolio .titles-box {
+  width: 896px;
+}
+.portfolio .titles-box h4 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.portfolio .titles-box h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin-top: 16px;
+}
+.portfolio .titles-box p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 16px;
+}
+.portfolio .images{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 24px;
+    margin-top: 48px;
 }
