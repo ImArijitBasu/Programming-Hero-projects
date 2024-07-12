@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns:2fr 1fr 1fr; 
+            grid-template-rows:1fr 1fr 1fr; 
+            gap: 5px;
+            height: 100vh;
+            grid-template-areas: 
+            "one two two"
+            "one three four";
+        }
+        .item{
+            background-color: rgb(0, 247, 255);
+            /* border-radius: 20px; */
+            font-size: 50px;
+            padding: 20px;
+        }
+        .one{
+            grid-area: one;
+        }
+        .two{
+            grid-area: two;
+        }
+        .three{
+            grid-area: three;
+        }
+        .four{
+            grid-area: four;
+        }
+        @media screen and (max-width:576px){
+            .container{
+                grid-template-areas: 
+                "one"
+                "two"
+                "three"
+                "four";   
+            }
+            .item{
+                width: 100vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item one">1</div>
+        <div class="item two">2</div>
+        <div class="item three">3</div>
+        <div class="item four">4</div>
+    </div>
+</body>
+</html>

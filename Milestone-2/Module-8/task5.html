@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>news letter</title>
+    <style>
+        .container{
+
+        }
+        .card{
+            border: 2px solid blue;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+            flex-direction: row;
+            padding: 20px;
+        }
+        .two{
+            flex-direction: row-reverse;
+        }
+        img{
+            width: 300px;
+        }
+        @media screen and (max-width:576px){
+                .card{
+                    display: flex;
+                    flex-direction: column;
+                }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card one">
+            <div class="left"><img src="../iron.jpeg" alt=""></div>
+            <div class="right">
+                <h1>Why do we use it?</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero ad rerum eius animi eveniet nulla doloribus. Aspernatur, quam! Doloremque, accusamus?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia, temporibus esse non consectetur error iste unde ipsum blanditiis mollitia nihil dolores aspernatur excepturi animi aut earum laborum eligendi at beatae corporis. Ipsum nemo eligendi laboriosam hic blanditiis! Esse mollitia sit ducimus id molestias ut neque a doloribus, error ad officiis laboriosam cumque ratione! Rerum vero maxime tempora voluptas incidunt accusantium ipsum facilis qui dolorem reiciendis, sed aliquam voluptate illum similique voluptatibus illo quos distinctio suscipit libero officia sequi. Iste repellat perferendis nobis ea, natus rerum incidunt iure sequi minus doloremque corrupti itaque doloribus quidem provident voluptatem. Tempora, quidem natus.</p>
+            </div>
+        </div>
+        <div class="card two">
+            <div class="left"><img src="../iron.jpeg" alt=""></div>
+            <div class="right">
+                <h1>Why do we use it?</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero ad rerum eius animi eveniet nulla doloribus. Aspernatur, quam! Doloremque, accusamus?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia, temporibus esse non consectetur error iste unde ipsum blanditiis mollitia nihil dolores aspernatur excepturi animi aut earum laborum eligendi at beatae corporis. Ipsum nemo eligendi laboriosam hic blanditiis! Esse mollitia sit ducimus id molestias ut neque a doloribus, error ad officiis laboriosam cumque ratione! Rerum vero maxime tempora voluptas incidunt accusantium ipsum facilis qui dolorem reiciendis, sed aliquam voluptate illum similique voluptatibus illo quos distinctio suscipit libero officia sequi. Iste repellat perferendis nobis ea, natus rerum incidunt iure sequi minus doloremque corrupti itaque doloribus quidem provident voluptatem. Tempora, quidem natus.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
