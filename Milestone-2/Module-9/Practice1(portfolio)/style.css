@@ -1,0 +1,531 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.btn {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  padding: 18px 36px;
+  border: none;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+header {
+  width: 1600px;
+  height: 837px;
+  background-color: rgb(255, 248, 243);
+  background-image: url(assets/images/developer.png),
+    url(assets/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  margin: auto;
+  border-left: 30px solid transparent;
+  border-top: 30px solid transparent;
+  border-bottom: -30px solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -10px 150px 0px 200px;
+  padding-top: 50px;
+}
+nav .name {
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+nav .name span {
+  color: rgb(253, 110, 10);
+}
+nav .nav-right {
+  display: flex;
+  align-items: center;
+}
+nav .nav-right li {
+  margin-right: 50px;
+  list-style: none;
+}
+nav .nav-right li a {
+  text-decoration: none;
+}
+nav .nav-right .li1 a,
+.li2 a {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner .banner-left {
+  width: 585px;
+  margin-left: 200px;
+}
+.banner-left-text h3 {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.banner-left-text h1 {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 116px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 5px;
+}
+.banner-left-text p {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 20px;
+}
+.banner-left-buttons {
+  margin-top: 30px;
+}
+
+.banner-left-buttons .btn-new {
+  color: rgb(253, 110, 10);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 18px 36px;
+  border: 1px solid rgb(253, 110, 10);
+  border-radius: 5px;
+  margin-left: 30px;
+  background-color: transparent;
+}
+
+.banner-right {
+  width: 584px;
+  height: 676px;
+  margin-right: 38px;
+}
+
+/* about section  */
+
+.about {
+  width: 1140px;
+  height: 550px;
+  margin: 130px auto;
+  border-radius: 10px;
+  background: rgb(255, 248, 243);
+  display: flex;
+}
+.about-container {
+  width: 827px;
+  height: 288px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  margin: 131px auto;
+  display: flex;
+  flex-direction: column;
+}
+.about-container h1 {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.about-container p {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.text-group {
+  width: 782px;
+  margin: auto;
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+.text-group h4 {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.text-group h3 {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* what i do  */
+
+.skill {
+  width: 1140px;
+  height: 550px;
+  margin: 130px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skill .skill-title {
+  width: 909px;
+}
+.skill .skill-title h1 {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.skill .skill-title p {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.skill .skillset {
+  height: 377px;
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+.skill .skillset .box {
+  width: 267px;
+  height: 377px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill .skillset .box .logo {
+  margin: 33px auto 30px 30px;
+}
+.skill .skillset .box .textbox {
+  width: 201px;
+  margin: 33px 30px;
+}
+.skill .skillset .box .textbox h1 {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.skill .skillset .box .textbox p {
+  width: 201px;
+  height: 196px;
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+/* resume section  */
+
+.resume {
+  width: 1140px;
+  margin: 130px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume .title h1 {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 113px;
+}
+.resume-head h1 {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.resume .resume-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 71px;
+  margin-bottom: 70px;
+}
+.resume .resume-box .resume-one {
+  width: 511px;
+  height: 175px;
+}
+.resume .resume-box .resume-one h2 {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.resume .resume-box .resume-one h5 {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.resume .resume-box .resume-one p {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+hr {
+  border: 1px solid rgb(209, 209, 209);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* footer section  */
+
+footer {
+  width: 1600px;
+  height: 780px;
+  background-color: rgb(255, 248, 243);
+  margin: 110px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 117px;
+}
+.footer-left {
+  width: 35%;
+  height: 70%;
+}
+.footer-left h1 {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.footer-left p {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.footer-left .logos {
+  margin: 30px opx;
+  width: 120px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-right {
+  width: 35%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-right form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+}
+.footer-right h1 {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 28px;
+}
+.footer-right .input {
+  width: 461px;
+  height: 64px;
+  padding-left: 18px;
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer-right .text {
+  width: 461px;
+  height: 180px;
+  padding-left: 18px;
+  padding-top: 18px;
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  resize: none;
+}
+.footer-right button {
+  width: 150px;
+}
+
+
+
+/* responsive section  */
+
+/* media query section  */
+.dis{
+  display: none;
+}
+
+@media screen and ( max-width:576px){
+    header{
+      background-color: rgb(255, 248, 243);
+      background-image: none;
+      width: 576px;
+      height: auto;
+      border-left: 10px solid transparent;
+      border-top: 10px solid transparent;
+    }
+    nav{
+      margin-left: 0px;
+      width: 576px;
+      padding-top: 20px;
+      /* flex-direction: column; */
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    nav .name{
+      align-items: left;
+    }
+    nav .nav-right{
+      height: 50px;
+      overflow:hidden;
+      margin-right: 0px;
+    }
+    .banner{
+      flex-direction: column;
+      align-items:flex-start;
+      justify-content: center;
+      gap: 20px;
+    }
+    .banner .banner-left{
+      margin-left: 0;
+      align-items: center;
+      justify-content: center;
+    }
+    .banner-left-text{
+      width: 450px;
+      margin: auto;
+      justify-content: flex-start;
+    }
+    .banner-left-text h3 {
+      font-size: 40px;
+      /* text-align: center; */
+    }
+    .banner-left-text h1 {
+      font-size: 70px;
+      /* text-align: center; */
+    }
+    .banner-left-text p {
+      font-size: 20px;
+      height: 100px;
+      width: 400px;
+      /* text-align: center; */
+    }
+    .banner-left-buttons {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .banner .banner-right {
+      margin-right: 0;
+      margin-bottom: -15px;
+      width: 100%;
+    }
+    .banner .banner-right img{
+      width: 99%;
+    }
+}
