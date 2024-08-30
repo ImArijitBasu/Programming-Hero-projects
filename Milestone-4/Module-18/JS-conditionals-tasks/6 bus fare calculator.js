@@ -7,30 +7,6 @@ Ticket fare Calculator
     - Otherwise Regular ticket fare 800 tk
 */
 
-/*
-let ticket = 800 ;
-let isStudents = true;
-let age = 15;
-if (age<10){
-    console.log("free");
-    
-}else if (true){
-    //50% Discounts
-    const discount = ticket*50/100;
-    const payamount = ticket - discount;
-    console.log(payamount);
-}
-else if(age>=60){
-    //15% discount
-    const discount = ticket*15/100;
-    const payamount = ticket-discount;
-    console.log(payamount);
-}
-else{
-    console.log("Regular ticket fare 800 tk");
-    
-}
-*/
 let age = 15;
 let regular = 800;
 let student = regular - (regular * 50/100);
