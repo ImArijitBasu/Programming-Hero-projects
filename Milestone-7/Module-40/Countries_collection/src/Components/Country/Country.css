@@ -5,3 +5,9 @@
     padding: 20px;
     margin: 20px auto;
 }
+.background{
+    background: rgb(0, 0, 0);
+}
+.none{
+    background: transparent;
+}
