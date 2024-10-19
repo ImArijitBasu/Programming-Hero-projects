@@ -10,7 +10,9 @@ function Countries() {
       .then((data) => setCountries(data));
   }, []);
   const handleList = country => {
-        console.log('country visited');
+        console.log(country);
+        const newAdded = [...countryList , country]
+        setCountryList(newAdded)
   }
   return (
     <>
@@ -18,7 +20,11 @@ function Countries() {
       <div className="">{countries.length}</div>
       <div className="">
         <h2>VISITED COUNTRIES</h2>
-        <ul></ul>
+        <ul>
+            {
+                countryList.map((visitedCountry , index) => <li key={index}>{visitedCountry}</li>)
+            }
+        </ul>
       </div>
       <div className="country-container">
         {countries.map((country) => (

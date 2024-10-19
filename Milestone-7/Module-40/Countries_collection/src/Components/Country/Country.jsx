@@ -17,9 +17,15 @@ const Country = ({country, handleList}) => {
             <img src={png} alt="" />
             <h3>Population: {population}</h3>
             <h3>Area: {area}</h3>
-            <button onClick={handleList}>Add to LIST</button>
+            {/* <button onClick={()=>handleList(country.name.common)}>Add to LIST</button> */}
             <br /> <br />
-            <button onClick={visitButton}>{ visit ? 'visited' : 'visit'}</button>
+            <button onClick={()=>{
+               const handle = handleList(country.name.common);
+               const handle2 =  visitButton();
+               return (
+                handle , handle2
+               )
+                }}>{ visit ? 'visited' : 'visit'}</button>
         </div>
     );
 };
