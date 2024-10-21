@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const Blog = ({ blog , handleBookmark }) => {
+const Blog = ({ blog , handleBookmark ,handleSpendTime}) => {
   const {
     title,
     author,
@@ -64,9 +64,9 @@ const Blog = ({ blog , handleBookmark }) => {
             <p>#{hashtags[1]}</p> */}
         </div>
         {/* mark as read button */}
-        <a href="#" className=" underline underline-offset-2 text-blue-500">
+        <button onClick={() => handleSpendTime(reading_time)} className=" underline underline-offset-2 text-blue-500">
           Mark as read
-        </a>
+        </button>
       </div>
     </div>
   );
