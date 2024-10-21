@@ -1,4 +1,4 @@
-import React from 'react';
+
 import profileImg from '../../assets/images/profile.png'
 const Header = () => {
     return (

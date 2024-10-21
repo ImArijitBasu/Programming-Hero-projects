@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
-import React from "react";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog , handleBookmark }) => {
   const {
     title,
     author,
@@ -34,19 +33,40 @@ const Blog = ({ blog }) => {
         </div>
         {/* right side  */}
         <div className="flex space-x-3">
-            <p className="font-light text-sm">{reading_time} min read</p>
-            <p className="font-light text-sm"><a href="#">∭</a></p>
+          <p className="font-light text-sm">{reading_time} min read</p>
+          <button onClick={()=>handleBookmark(blog)} className="font-light text-sm">
+            <p>
+              <svg
+                className="w-5 h-5"
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="100"
+                height="100"
+                viewBox="0 0 30 30"
+              >
+                <path d="M23,27l-8-7l-8,7V5c0-1.105,0.895-2,2-2h12c1.105,0,2,0.895,2,2V27z"></path>
+              </svg>
+            </p>
+          </button>
         </div>
       </div>
       <h1 className="font-bold text-2xl capitalize">{title}</h1>
       <div className="my-3">
         {/* hashtags  */}
         <div className="flex space-x-4 my-3 text-slate-400 text-sm font-bold">
-            <p>#{hashtags[0]}</p>
-            <p>#{hashtags[1]}</p>
+          {hashtags.map((hash, index) => (
+            <a href="#" key={index}>
+              #{hash}
+            </a>
+          ))}
+          {/* <p>#{hashtags[0]}</p>
+            <p>#{hashtags[1]}</p> */}
         </div>
         {/* mark as read button */}
-        <a href="#" className=" underline underline-offset-2 text-blue-500">Mark as read</a>
+        <a href="#" className=" underline underline-offset-2 text-blue-500">
+          Mark as read
+        </a>
       </div>
     </div>
   );
