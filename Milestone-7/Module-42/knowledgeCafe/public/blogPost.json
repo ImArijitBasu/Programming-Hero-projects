@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co.com/k9zMhvq/banner.png",
+      "title": "Understanding React Props and State",
+      "author_img": "https://i.ibb.co.com/h9wNDqS/Untitled-1.png",
+      "author": "John Doe",
+      "posted_date": "2024-10-21",
+      "reading_time": 5,
+      "hashtags": ["React", "JavaScript"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co.com/k9zMhvq/banner.png",
+      "title": "Exploring CSS Grid for Responsive Design",
+      "author_img": "https://i.ibb.co.com/h9wNDqS/Untitled-1.png",
+      "author": "Jane Smith",
+      "posted_date": "2024-10-20",
+      "reading_time": 7,
+      "hashtags": ["CSS", "WebDevelopment"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co.com/k9zMhvq/banner.png",
+      "title": "JavaScript ES6 Features You Should Know",
+      "author_img": "https://i.ibb.co.com/h9wNDqS/Untitled-1.png",
+      "author": "Alice Johnson",
+      "posted_date": "2024-10-19",
+      "reading_time": 6,
+      "hashtags": ["JavaScript", "ES6"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co.com/k9zMhvq/banner.png",
+      "title": "The Power of React Hooks in Modern Apps",
+      "author_img": "https://i.ibb.co.com/h9wNDqS/Untitled-1.png",
+      "author": "Robert Brown",
+      "posted_date": "2024-10-18",
+      "reading_time": 8,
+      "hashtags": ["React", "Hooks"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co.com/k9zMhvq/banner.png",
+      "title": "A Guide to Flexbox for Beginners",
+      "author_img": "https://i.ibb.co.com/h9wNDqS/Untitled-1.png",
+      "author": "Emily White",
+      "posted_date": "2024-10-17",
+      "reading_time": 5,
+      "hashtags": ["CSS", "Flexbox"]
+    },
+    {
+      "id": 6,
+      "cover": "https://i.ibb.co.com/k9zMhvq/banner.png",
+      "title": "Building a Full Stack App with MERN",
+      "author_img": "https://i.ibb.co.com/h9wNDqS/Untitled-1.png",
+      "author": "Michael Green",
+      "posted_date": "2024-10-16",
+      "reading_time": 12,
+      "hashtags": ["MERN", "FullStack"]
+    },
+    {
+      "id": 7,
+      "cover": "https://i.ibb.co.com/k9zMhvq/banner.png",
+      "title": "Understanding TypeScript for JavaScript Devs",
+      "author_img": "https://i.ibb.co.com/h9wNDqS/Untitled-1.png",
+      "author": "Sophia Lewis",
+      "posted_date": "2024-10-15",
+      "reading_time": 10,
+      "hashtags": ["TypeScript", "JavaScript"]
+    },
+    {
+      "id": 8,
+      "cover": "https://i.ibb.co.com/k9zMhvq/banner.png",
+      "title": "Getting Started with Next.js for SSR",
+      "author_img": "https://i.ibb.co.com/h9wNDqS/Untitled-1.png",
+      "author": "David Lee",
+      "posted_date": "2024-10-14",
+      "reading_time": 9,
+      "hashtags": ["Next.js", "SSR"]
+    },
+    {
+      "id": 9,
+      "cover": "https://i.ibb.co.com/k9zMhvq/banner.png",
+      "title": "How to Use Git and GitHub for Collaboration",
+      "author_img": "https://i.ibb.co.com/h9wNDqS/Untitled-1.png",
+      "author": "Olivia Harris",
+      "posted_date": "2024-10-13",
+      "reading_time": 6,
+      "hashtags": ["Git", "GitHub"]
+    },
+    {
+      "id": 10,
+      "cover": "https://i.ibb.co.com/k9zMhvq/banner.png",
+      "title": "Mastering Redux for State Management",
+      "author_img": "https://i.ibb.co.com/h9wNDqS/Untitled-1.png",
+      "author": "James Wilson",
+      "posted_date": "2024-10-12",
+      "reading_time": 8,
+      "hashtags": ["Redux", "StateManagement"]
+    }
+  ]
+  

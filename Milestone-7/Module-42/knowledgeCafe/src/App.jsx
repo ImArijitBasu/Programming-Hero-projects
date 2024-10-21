@@ -1,18 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Blogs from "./Components/Blogs/Blogs";
+import Bookmarks from "./Components/Bookmarks/Bookmarks";
+import Header from "./Components/Header/Header";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <p className="read-the-docs text-6xl text-red-50 bg-red-950">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div className="container px-2 mx-auto my-5">
+        <Header></Header>
+      </div>
+      <div className="container px-2 mx-auto my-5 flex flex-col md:flex-row gap-2 justify-center">
+          <Blogs></Blogs>
+          <Bookmarks></Bookmarks>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
