@@ -1,5 +1,6 @@
-import React from "react";
+
 import Bookmark from "../Bookmark/Bookmark";
+import PropTypes from "prop-types";
 
 const Bookmarks = ({ bookmarks }) => {
   return (
@@ -14,5 +15,9 @@ const Bookmarks = ({ bookmarks }) => {
     </div>
   );
 };
+
+Bookmarks.propTypes ={
+  bookmarks : PropTypes.array.isRequired,
+}
 
 export default Bookmarks;

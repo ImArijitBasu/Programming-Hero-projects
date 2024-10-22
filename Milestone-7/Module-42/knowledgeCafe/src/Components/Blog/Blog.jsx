@@ -73,5 +73,7 @@ const Blog = ({ blog , handleBookmark ,handleSpendTime}) => {
 };
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
+  handleBookmark : PropTypes.func.isRequired,
+  handleSpendTime : PropTypes.func.isRequired,
 };
 export default Blog;

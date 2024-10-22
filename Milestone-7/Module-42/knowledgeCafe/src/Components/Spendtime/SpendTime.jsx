@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from "prop-types";
 
 const SpendTime = ({spendTime}) => {
     return (
@@ -7,5 +7,8 @@ const SpendTime = ({spendTime}) => {
         </div>
     );
 };
+SpendTime.propTypes = {
+    spendTime : PropTypes.number.isRequired
+}
 
 export default SpendTime;
