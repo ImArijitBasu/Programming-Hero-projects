@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 const Blog = ({ blog , handleBookmark ,handleSpendTime}) => {
-  const {
+  const {id,
     title,
     author,
     cover,
@@ -64,7 +64,7 @@ const Blog = ({ blog , handleBookmark ,handleSpendTime}) => {
             <p>#{hashtags[1]}</p> */}
         </div>
         {/* mark as read button */}
-        <button onClick={() => handleSpendTime(reading_time)} className=" underline underline-offset-2 text-blue-500">
+        <button onClick={() => handleSpendTime(id,reading_time)} className=" underline underline-offset-2 text-blue-500">
           Mark as read
         </button>
       </div>

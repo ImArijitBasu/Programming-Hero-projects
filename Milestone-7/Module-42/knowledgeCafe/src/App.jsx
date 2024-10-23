@@ -15,9 +15,12 @@ function App() {
     setBookmarks(newBookmarks)
     console.log(blog.title);
   }
-  const handleSpendTime = (time) => {
+  const handleSpendTime = (id, time) => {
     const newTime = spendTime + time;
-    setSpendTime(newTime)
+    setSpendTime(newTime);
+    console.log("removed item" ,id);
+    const remainingItems = bookmarks.filter((bookmark)=>bookmark.id!==id);
+    setBookmarks(remainingItems);
   }
   return (
     <>
