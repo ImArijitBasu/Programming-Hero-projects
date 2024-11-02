@@ -1,0 +1,11 @@
+.Main div {
+    border: 2px solid tomato;
+    border-radius: 12px;
+    padding: 10px 5px;
+    background-color: brown;
+    color: white;
+    margin: 10px;
+}
+.flex{
+    display: flex;
+}
