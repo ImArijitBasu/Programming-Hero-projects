@@ -1,0 +1,8 @@
+- first install firebase - npm install firebase
+- Create a project
+- register the project
+- create a file named firebase.init.js and store the firebase configuration file there
+- - don't put config file in the client side --
+- get auth from firebase > web > get started
+- export auth from the init file
+- in the console authentication > stated > enable google
